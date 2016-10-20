@@ -16,9 +16,9 @@
 		<h2>게임영상학과</h2>
 		<div class="game_box">
 			<ul class="game_list">
-			    <li class="g_1"><img src="../../common/images/sky.jpg" alt="sky" title="sky"></li>
-			    <li class="g_2"><img src="../../common/images/sky.jpg" alt="sky" title="sky"></li>
-			    <li class="g_3"><img src="../../common/images/sky.jpg" alt="sky" title="sky"></li>
+			    <li class="g_slide gg">1<li>
+			    <li class="g_slide gg">2</li>
+			    <li class="g_slide gg">3</li>
 			</ul>
 		</div>
 	</div>
@@ -26,6 +26,7 @@
 	<div class="fp-slides">
 			<div class="slide_wrap">
 				<div class="slide fp-slide sl">
+                    <h2>유비쿼터스과</h2>
 				    <div class="ub_box">
                         <div class="ub_list"></div>
                         <div class="ub_list"></div>
@@ -33,6 +34,7 @@
 		            </div>
 				</div>
 				<div class="slide fp-slide sl ub_box2">
+                    <h2>UBIQUITOUS</h2>
                     <div class="ub_inbox">
                         <div class="table1 a">1</div>
                         <div class="table2 a">2</div>
@@ -44,14 +46,9 @@
 				</div>
 			</div>
 		</div>
-<!--
-        <h2>유비쿼터스과</h2>
-        
-       <div class="ub_box2">
-           asd
-       </div>
--->
     </div>
 	<div class="section s4">WHATEVER</div>
-	<div class="section s5">WHATEVER</div>
+	<div class="section s5">
+	    
+	</div>
 </div>

@@ -44,7 +44,7 @@ nav ul {height:100%;}
 .s2 h2 {position: absolute; top:130px; text-align: center; display: block; width:100%; font-size:36px;}
 .game_box {width:1200px; height:635px; background:#fff; position: absolute; top:100px; bottom:0; left:0; right:0; margin:auto;}
 .game_list {width:3600px; border-right:1px solid #ddd; height:100%; float: left; overflow: hidden; }
-.g_1 img { width: 1200px; height: 100%; }
+.gg { width: 1200px; height: 100%; }
 
 /* Section3 */
 .s3 { position: relative; }
@@ -62,3 +62,5 @@ nav ul {height:100%;}
 .table4 { background: #f1c40f; }
 .table5 { background: #9b59b6; }
 .table6 { background: #ff8888; }
+
+/* Section5 */

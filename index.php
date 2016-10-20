@@ -33,9 +33,8 @@
 						<li data-menuanchor="about"><a href="#about">HOME</a></li>
 						<li data-menuanchor="overview"><a href="#overview">GAME</a></li>
 						<li data-menuanchor="features"><a href="#features">UBIQUITOUS</a></li>
-						<li data-menuanchor="case"><a href="/#case">SPATIAL</a></li>
-						<li data-menuanchor="contact"><a href="#contact">ORCHESTRA</a></li>
-						
+						<li data-menuanchor="case"><a href="#case">SPACE</a></li>
+                        <li data-menuanchor="contact"><a href="#contact">FOOTER</a></li>
 					</ul>
 				</nav>
 			</div>
