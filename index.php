@@ -22,6 +22,8 @@
   <script src="/common/js/jquery.js"></script>
   <script src="/common/js/main.js"></script>
   <script src="/common/js/fullPage.js-master/jquery.fullPage.js"></script>
+ <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDb1izsHyAeUgcoaFL5tJQQh6QoX_2Ok78&signed_in=true&language=ko&callback=initMap"></script>
+  <script src="/common/js/gmap.js"></script>
  </head>
  <body>
 	<div id="wrap">
@@ -33,8 +35,8 @@
 						<li data-menuanchor="about"><a href="#about">HOME</a></li>
 						<li data-menuanchor="overview"><a href="#overview">GAME</a></li>
 						<li data-menuanchor="features"><a href="#features">UBIQUITOUS</a></li>
-						<li data-menuanchor="case"><a href="#case">SPACE</a></li>
-                        <li data-menuanchor="contact"><a href="#contact">FOOTER</a></li>
+						<li data-menuanchor="case"><a href="/#case">SPACE</a></li>
+						<li data-menuanchor="contact"><a href="#contact">CONTACT</a></li>
 					</ul>
 				</nav>
 			</div>

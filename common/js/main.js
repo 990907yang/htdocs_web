@@ -6,6 +6,7 @@ $(document).ready(function(){
 		menu: '#menu',
 		scrollingSpeed: 800
 	});
+	
 	if($("#section0").hasClass("active")){
 		$(".controls ul li").eq(0).css("background","#f5c032");
 	}else if($("#section1").hasClass("active")){
