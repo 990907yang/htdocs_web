@@ -42,16 +42,23 @@ nav ul {height:100%;}
 /* Section2 */
 .s2 {position: relative;}
 .s2 h2 {position: absolute; top:130px; text-align: center; display: block; width:100%; font-size:36px;}
-.game_box {width:1200px; height:635px; background:#fff; position: absolute; top:100px; bottom:0; left:0; right:0; margin:auto;}
-.game_list {width:3600px; border-right:1px solid #ddd; height:100%; float: left; overflow: hidden; }
-.g_1 img { width: 1200px; height: 100%; }
+
+.game_box {width:1200px; height:635px; background:#fff; position: absolute; top:100px; bottom:0; left:0; right:0; margin:auto; overflow: hidden; }
+.game_list {width:3610px; border-right:1px solid #ddd; height:100%; float: left; position: relative; transition: all .5s cubic-bezier(0.68,-0.55,0.265,1.55); }
+.game_list li { width: 1200px; height: 635px; float: left; margin: 0 auto; }
+
+.s2_sl_btnl { background: url(../images/se2left.png)no-repeat; position: absolute;width: 56px; height: 56px; top: 45%; left: 10px; z-index: 999; }
+.s2_sl_btnr { background: url(../images/se2rigth.png)no-repeat; position: absolute; width: 56px; height: 56px; z-index: 999; top:45%; right: 10px; }
+
+.g_1 { background: #3498db; }
+.g_2 { background: #349; }
+.g_3 { background: #199; }
 
 /* Section3 */
 .s3 { position: relative; }
 .s3 > h2 {position: absolute; top:130px; text-align: center; display: block; width:100%; color: #fff; font-size:36px;}
 .ub_box {width:1200px; height:635px; background: #2980b9; position: absolute; top:100px; bottom:0; left:0; right:0; margin:auto;}
 .ub_web { margin-top: 20px; padding: 8px; text-align: center; display: block; width:100%; color: #fff; font-size:20px; }
-
 
 .ub_list {width:calc(100%/3); height:100%; float: left; }
 .ub_list:nth-child(2) { background:#3498db; }
