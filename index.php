@@ -7,6 +7,12 @@
 		$dir = "home";
 		$page = "main";
 	}
+	function al($tx,$lc){
+		echo "<script>
+			alert('$tx');
+			location='$lc';
+		</script>";
+	}
 ?>
 <!doctype html>
 <html lang="ko">
