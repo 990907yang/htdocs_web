@@ -1,10 +1,11 @@
 /* ALL */
 @font-face {font-family:"go"; src:url("/common/fonts/gotham-Light.woff");}
 *{ margin:0; padding:0; box-sizing:border-box; font-family:"go"; color:#333;} 
-#wrap {width:100%;}
+#wrap {width:100%; height:100%;}
 li {list-style: none;}
 a {text-decoration: none;}
 .amp {color:rgb(245, 192, 50);}
+body , html {width:100%; height:100%;}
 /* Header */
 .header {width:100%; height:80px; position: fixed; z-index:9; background:rgba(255,255,255,.9); box-shadow:rgba(0,0,0,0.529412) 0 0 10px 1px;}
 .header_wrap {max-width:1200px; height:100%; margin:0 auto;}
@@ -32,44 +33,86 @@ nav ul {height:100%;}
 .fp-slidesContainer { left:0%;}
 .sec1_main {max-width:1200px; margin:0 auto;}
 
-.slide_wrap h2{ color:#fff; font-size:80px; text-align:center; opacity:0; transition:all 1s; margin-bottom:150px;}
+.main_sd h2{ color:#fff; font-size:80px; text-align:center; opacity:0; transition:all 1s; margin-bottom:150px;}
+.main_sd p {color:#fff; text-align: center; font-size:36px; margin-top:10px; transition:all 1s; opacity:0;}
 
-.controls {width:100%; position: absolute; bottom:70px; z-index:9;}
-.controls ul {width:10%; margin:0 auto; overflow: hidden;}
-.controls ul li {float: left; width:17px; border-radius:50%; height:17px;  margin-right:20px; background:#ddd; cursor:pointer;}
-.controls ul li:last-child {margin:0;}
+.sec2_main {max-width:1200px; margin:0 auto;}
 
-/* Section2 */
+/* game */
 .s2 {position: relative;}
 .s2 h2 {position: absolute; top:130px; text-align: center; display: block; width:100%; font-size:36px;}
 
 .game_box {width:1200px; height:635px; background:#fff; position: absolute; top:100px; bottom:0; left:0; right:0; margin:auto; overflow: hidden; }
-.game_list {width:3610px; border-right:1px solid #ddd; height:100%; float: left; position: relative; transition: all .5s cubic-bezier(0.68,-0.55,0.265,1.55); }
+.game_list {width:3610px; border-right:1px solid #ddd; height:100%; float: left; position: relative;}
 .game_list li { width: 1200px; height: 635px; float: left; margin: 0 auto; }
 
-.s2_sl_btnl { background: url(../images/se2left.png)no-repeat; position: absolute;width: 56px; height: 56px; top: 45%; left: 10px; z-index: 999; }
-.s2_sl_btnr { background: url(../images/se2rigth.png)no-repeat; position: absolute; width: 56px; height: 56px; z-index: 999; top:45%; right: 10px; }
+.s2_sl_btnl { background: url(../images/se2left.png)no-repeat; position: absolute;width: 56px; height: 56px; top: 45%; left: 10px; z-index: 999; cursor:pointer;}
+.s2_sl_btnr { background: url(../images/se2rigth.png)no-repeat; position: absolute; width: 56px; height: 56px; z-index: 999; top:45%; right: 10px;cursor:pointer;}
 
-.g_1 { background: #3498db; }
-.g_2 { background: #349; }
-.g_3 { background: #199; }
+.g_1 { background: #fff; padding:100px;}
 
-/* Section3 */
+.g_left {width:55%; height:100%;  float: left;}
+.g_left h3 {font-size:36px;}
+.g_left p {font-size:28px; color:#777; margin-top:50px; line-height:40px;}
+
+.g_1 .g_right {width:45%; height:100%; background:url('/common/images/pikachu.png')center no-repeat; background-size:80% 80%; float: right; }
+
+.g_2 { background: #fff; padding: 100px;}
+
+.g_2 .g_right {width:45%; height:100%; background:url('/common/images/pro.png')center no-repeat; background-size:80% 80%; float: right; }
+
+.g_3 { background: #fff; padding: 100px;}
+
+.g_3 .g_right {width:45%; height:100%; background:url('/common/images/3d-glasses.png')center no-repeat; background-size:80% 80%; float: right; }
+
+.game_ct {width:100%; height:50px; clear:both; position: absolute; bottom:0; padding:0px 50px;}
+
+.controls {float: left;}
+.controls li {float:left;  width:15px; height:15px; border-radius:50%; background:#ddd; margin-left:10px; cursor:pointer;}
+.controls li:first-child {background:#f5c032;}
+
+/* 유비쿼터스 */
 .s3 { position: relative; }
 .s3 > h2 {position: absolute; top:130px; text-align: center; display: block; width:100%; color: #fff; font-size:36px;}
 .ub_box {width:1200px; height:635px; background: #2980b9; position: absolute; top:100px; bottom:0; left:0; right:0; margin:auto;}
 .ub_web { margin-top: 20px; padding: 8px; text-align: center; display: block; width:100%; color: #fff; font-size:20px; }
 
-.ub_list {width:calc(100%/3); height:100%; float: left; }
+.ub_list {width:calc(100%/3); height:100%; float: left; padding:0 30px;}
 .ub_list:nth-child(2) { background:#3498db; }
-.ub_list > h2 { margin-top: 20px; width:100%; color: #fff; font-size:36px; }
+.ub_list > h2 { margin-top: 20px; width:100%; color: #fff; font-size:36px; text-align: center;}
 
 .ub1_img { width: 140px; height: 140px; margin: 0 auto; margin-top: 50px; background: url(../images/mcom.png)no-repeat; }
 .ub1_img2 { width: 140px; height: 140px; margin: 0 auto; margin-top: 50px; background: url(../images/netimg.png)no-repeat; }
 .ub1_img3 { width: 140px; height: 140px; margin: 0 auto; margin-top: 50px; background: url(../images/iotimg.png)no-repeat; }
 
 .ub_box2 { background: rgb(17, 60, 94); }
-h3 { position: absolute; top:130px; text-align: center; display: block; width:100%; color: #fff; font-size:36px; }
+.s3 h3 { position: absolute; top:130px; text-align: center; display: block; width:100%; color: #fff; font-size:36px; }
+.ub_inbox {width:1200px; height:635px; background: #fff; position: absolute; top:100px; bottom:0; left:0; right:0; margin:auto; }
+.a{  width: 400px; height: 50%; float: left; transition: 0.8s; }
+.ub_inbox .a:hover{ opacity: 0; }
+.table1 { background: #2ecc71; }
+.table2 { background: #e74c3c; }
+.table3 { background: #3498db; }
+.table4 { background: #f1c40f; }
+.table5 { background: #9b59b6; }
+.table6 { background: #ff8888; }
+
+/* 공간정보학과 */
+.s4 {position: relative;}
+.sp_box {width:1200px; height:635px; background:#fff; position: absolute; top:100px; bottom:0; left:0; right:0; margin:auto;}
+.sp_box {width:1200px; height:635px; background: #fff; position: absolute; top:100px; bottom:0; left:0; right:0; margin:auto;}
+.sp_web { margin-top: 50px; padding: 8px; text-align: center; display: block; width:100%; color: #fff; font-size:20px; }
+
+.sp_list {width:calc(100%/3); height:100%; float: left; padding:0 30px;}
+.sp_list:nth-child(2) { background:#efefef; }
+.sp_list h2 { margin-top: 20px; width:100%; color: #555; font-size:32px; text-align: center;}
+.sp_list p {color:#999;}
+.sp1_img { width: 140px; height: 140px; margin: 0 auto; margin-top: 50px; background: url(../images/database.png)no-repeat; background-size:cover;}
+.sp1_img2 { width: 140px; height: 140px; margin: 0 auto; margin-top: 50px; background: url(../images/Untitled-1.png)no-repeat; }
+.sp1_img3 { width: 140px; height: 140px; margin: 0 auto; margin-top: 50px; background: url(../images/app.png)no-repeat; }
+
+.ub_box2 { background: rgb(17, 60, 94); }
+.s4 h3 { position: absolute; top:130px; text-align: center; display: block; width:100%; color: #fff; font-size:36px; }
 .ub_inbox {width:1200px; height:635px; background: #fff; position: absolute; top:100px; bottom:0; left:0; right:0; margin:auto; }
 .a{  width: 400px; height: 50%; float: left; transition: 0.8s; }
 .ub_inbox .a:hover{ opacity: 0; }
@@ -81,15 +124,34 @@ h3 { position: absolute; top:130px; text-align: center; display: block; width:10
 .table6 { background: #ff8888; }
 
 /* Section5 */
-.s5 h2{position: absolute; top:130px; text-align: center; display: block; width:100%; font-size:36px; color:#fff}
-#map-canvas {width:55%; height:100%; border:1px solid #ddd; float: left;}
-.contact_info { width:43%; height:100%; padding:0 10px; float: right;}
-.contact_info >* {color:#fff;}
-.way { font-size: 32px; }
+.s5 h2{position: absolute; top:130px; text-align:center; display: block; width:100%; font-size:36px; color:#fff}
+.contact_main {width:1000px; height:560px; position: absolute; top:50px;  bottom:0; left:0; right:0; margin:auto; }
+#map-canvas {width:100%; height:70%; border:1px solid #ddd; float: left;}
+.contact_info { width:100%; height:30%;  float: right; padding:15px 0;}
+.contact_info >* {color:#ddd;}
+.way {font-size: 32px; color:#f5c032; text-align: center; margin-bottom:20px;}
+.contact_info p{text-align: center; }
+.contact_info p:nth-child(2) {margin-bottom:5px; font-size:20px;}
 .footer {background:#333; width:100%; height:100px; position: absolute; bottom:0;}
 .footer_main {max-width:1200px; margin:0 auto; height:100%;}
 .ft_l {width:20%; height:100%; float: left; padding:5px;}
 .ft_r {width:80%; height:100%; float: right; padding-top: 25px;}
-.ft_r p{color:#999; font-size:12px; }
+.ft_r p{color:#999; font-size:12px;}
 .ft_logo {font-size:36px; color:#fff; font-weight:bold; line-height:100px; text-align: center;}
-.contact_main {width:1200px; height:560px; position: absolute; top:50px;  bottom:0; left:0; right:0; margin:auto; }
+
+/* 게시판 */
+.noticeboard .header_wrap #menu .acc a{color:#f5c032; border-bottom:2px solid #f5c032;}
+.gsp {width:100%; height:100%; background:#ddd; padding:80px 0;}
+.gsp_main {width:1200px; margin:0 auto; padding:80px 0}
+.gsp_main p:first-child {font-size:36px; padding-bottom:10px; }
+.gsp_main p:nth-child(2) {font-size:18px; padding-bottom:50px;;}
+.table {width:100%; height:500px; border-radius:3px; background:#fff; box-shadow:1px 2px 5px 0 rgba(0,0,0,.2);}
+.tb_header {width:100%; height:50px; border-bottom:2px solid #ccc;}
+.tb_header ul {width:100%; height:100%;}
+.tb_header ul li {float: left; height:100%; border-right:1px solid #efefef; text-align: center; line-height:50px; font-size:18px; font-weight:bold;}
+.idx {width:100px;}
+.title {width:750px;}
+.writer {width:200px;}
+.date {width:150px;}
+
+
