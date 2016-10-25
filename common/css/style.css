@@ -159,7 +159,7 @@ nav ul {height:100%;}
 .list:hover {background:rgba(0,0,0,.6);}
 .list li {float: left; height:100%; text-align: center; line-height:60px; }
 
-.tb_footer {width:100%; padding-top:10px; height:50px;}
+.tb_footer {width:100%; padding-top:10px; height:50px; }
 .tb_footer button {width:100px; height:100%; border-radius:5px; border:none; float: right;  cursor:pointer;}
 .wt {background: #333; color:#fff; }
 .cancle {background:#999; color:#fff; margin-left:5px;}
@@ -175,7 +175,12 @@ nav ul {height:100%;}
 .view_main {width:1200px; margin:0 auto; padding:80px 0}
 .view_main p:first-child {font-size:36px; padding-bottom:10px; }
 .view_main p:nth-child(2) {font-size:18px; padding-bottom:50px;;}
-.view_back { background: #333; color:#fff; width:85px; height:100%; border-radius:5px; border:none; float: right;  cursor:pointer; padding: 9px; }
 .view_header { width:100%; border-radius:3px; background:#fff; box-shadow:1px 2px 5px 0 rgba(0,0,0,.2); padding:10px; height:400px; }
-.view_title { width:100%; border:1px solid #ddd; height:10%; padding:10px; resize:none; float: left; }
+.view_title { width:74%; border:1px solid #ddd; height:10%; padding:10px; resize:none; float: left; }
+.view_name { width:10%; border:1px solid #ddd; height:10%; padding:10px; resize:none; float: left; }
+.view_date { width:16%; border:1px solid #ddd; height:10%; padding:10px; resize:none; float: left; }
 .view_content { width:100%; border:1px solid #ddd; height: 88%; margin-top: 45px; padding:10px; resize:none; }
+.view_footer { width: 100%; padding-top: 10px; height: 50px; }
+.view_del { background: #333; color:#fff; width:100px; height:100%; border-radius:5px; border:none; float: right;  cursor:pointer; padding: 9px; margin-left: 10px; font-family: "go"; font-size: 13px; text-align: center; transition: 0.7s;}
+.view_back { background: #333; color:#fff; width:100px; height:100%; border-radius:5px; border:none; float: right;  cursor:pointer; padding: 9px; font-family: "go"; font-size: 13px; text-align: center; transition: 0.7s; }
+.view_footer a:hover { opacity: 0.5; }

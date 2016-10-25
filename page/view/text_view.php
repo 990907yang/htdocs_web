@@ -12,14 +12,19 @@
             foreach($result as $ro){
         ?>
 			<div class="view_header">
-                <div class="view_title"><?=$ro['title']?></div>
+                <div class="view_title"> 글제목 :  <?=$ro['title']?></div>
+                <div class="view_name"> 글쓴이:  <?=$ro['writer']?></div>
+                <div class="view_date"><?=$ro['date']?></div>
                 <div class="view_content"><?=$ro['content']?></div>
 			</div>
         <?php
             }
         ?>
-			<div class="tb_footer">
-				<a href="/view/noticeboard" class="view_back">뒤로가기</a>
-			</div>
+			<form action="del.php" method="post">
+			    <div class="view_footer">
+			            <a href="/view/del" class="view_del">삭제</a>
+			            <a href="/view/noticeboard" class="view_back">목록</a>
+			    </div>
+			</form>
 	</div>
 </section>

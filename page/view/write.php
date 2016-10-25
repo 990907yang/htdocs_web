@@ -1,7 +1,7 @@
 <section class="gsp">
 	<div class="gsp_main">
 	<p>게시판 글쓰기</p>
-	<p style="color:#ff8888">익명이 보장됩니다</p>
+	<p style="color:#ff8888">자유롭게 작성하세요</p>
 		<form action="/view/write_request" method="post">
 			<div class="table wt_tb">
 				<textarea id="title" name="text" placeholder="제목" required></textarea>
