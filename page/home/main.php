@@ -99,7 +99,7 @@
 				<div class="slide fp-slide sl ub_box2">
                    <h3>유비쿼터스</h3>
                     <div class="ub_inbox">
-                        <div class="table1 a"></div>
+                        <div class="table1 a">1</div>
                         <div class="table2 a">2</div>
                         <div class="table3 a">3</div>
                         <div class="table4 a">4</div>

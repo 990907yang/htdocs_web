@@ -1,7 +1,5 @@
 <?php
-	include_once("db.php");
 	$sql = "select * from noticeboard order by idx desc";
-	
 ?>
 <section class="gsp">
 	<div class="gsp_main">
